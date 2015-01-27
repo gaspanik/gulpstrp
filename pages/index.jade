@@ -1,0 +1,31 @@
+extend _layout
+
+block main
+	.container
+		.starter-template
+			h1 gulpstrap
+			p.lead A demo for 'Development Environments for Web Designers'.
+			p Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+		.row
+			.col-sm-6.col-lg-8
+				:markdown
+					## Heading 2
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+
+				table.table.table-striped
+					tr
+						th Name
+						th Address
+					tr
+						td Trina Friesen
+						td Studio 80 Janell crossroad Lake Lenord
+					tr
+						td Elfreda Smitham
+						td Studio 5 Wisoky station North Kimber
+					tr
+						td Lyndia Steuber
+						td 021 King stream Lake Vondaburgh
+
+			.col-sm-6.col-lg-4
+				include:markdown ../includes/aside.md
