@@ -1,0 +1,21 @@
+{
+  "name": "gulpstrap",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "bower",
+    "_bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  },
+  "preen": {
+    "bootstrap": ["less/**", "dist/fonts/*", "js/*"],
+    "jquery": ["dist/*"]
+  }
+}
